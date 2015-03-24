@@ -8,7 +8,7 @@ import urllib
 def sendsms(content):
 	url = 'http://sendsms.pp.jd.com/cgi-bin/jd_sendsms'
 
-	smsid = {'smsid':'com.paipai.backService.alert'}
+	smsid = {'smsid':'**'}
 	phone = {'phone':'18688950910'}
 	#phone = {'jiangpengxian':'18664907029', 'yinmiao':'18676697051', 'pengyong':'18688950910'}
 	#phone = {'jiangpengxian':'18664907029'}

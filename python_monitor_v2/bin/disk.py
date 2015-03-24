@@ -4,7 +4,7 @@
 import re
 import os
 def getAllitems(host,oid):
-        sn1 = os.popen('snmpwalk -v 2c -c 360buy ' + host + ' ' + oid).read().split('\n')[:-1]
+        sn1 = os.popen('snmpwalk -v 2c -c public ' + host + ' ' + oid).read().split('\n')[:-1]
         return sn1
                                                              
 def getDate(source,newitem):

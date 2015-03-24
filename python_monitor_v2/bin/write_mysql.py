@@ -5,7 +5,7 @@ import MySQLdb
  
 def mysql_reported(command):
 	try:
-		conn=MySQLdb.connect(host='172.16.188.30',user='monitor',passwd='monitor3p2w1d',db='monitordb',port=3306,charset='utf8')
+		conn=MySQLdb.connect(host='*****',user='***',passwd='***',db='***',port=3306,charset='utf8')
 		cur=conn.cursor()
 		cur.execute(command)
 		#cur.execute('select * from cpu_status_history')

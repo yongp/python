@@ -3,7 +3,7 @@
 
 import os
 def getAllitems(host, oid):
-        sn1 = os.popen('snmpwalk -v 2c -c 360buy ' + host + ' ' + oid + '|grep Raw|grep Cpu|grep -v Kernel').read().split('\n')[:-1]
+        sn1 = os.popen('snmpwalk -v 2c -c public ' + host + ' ' + oid + '|grep Raw|grep Cpu|grep -v Kernel').read().split('\n')[:-1]
         return sn1
                                                                 
 def getDate(host):
