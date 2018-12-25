@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """odbchelper.py sample script
 
 This program is part of "Dive Into Python", a free Python book for
@@ -27,4 +28,4 @@ if __name__ == "__main__":
 				"uid":"sa", \
 				"pwd":"secret"
 				}
-	print buildConnectionString(myParams)
+	print (buildConnectionString(myParams))
